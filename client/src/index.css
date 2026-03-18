@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #0f111a;
+  --bg-sidebar: #1a1d27;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --accent-color: #6366f1;
+  --accent-hover: #4f46e5;
+  --border-color: #2e3345;
+  --success: #10b981;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* Custom Scrollbar for Editor/Chat */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
